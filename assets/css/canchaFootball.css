@@ -1,0 +1,33 @@
+#canchaFootball{
+  height: 400px;
+  width: 700px;
+  background-color: #689F38;
+  position:relative;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.porteriaUno{
+  border: 5px solid white;
+  width: 100px;
+  height: 200px
+  position: absolute;
+   right: 0%;
+   top: 100%;
+}
+.circulo {
+	border: 5px solid white;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+  	left:295px;
+  	top: 150px;
+}
+.linea{
+    height: 100%;
+    border-left: 5px solid white;;
+    right: 50%;
+    position: absolute;
+    top: 0%
+}
