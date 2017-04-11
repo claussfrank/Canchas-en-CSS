@@ -1,0 +1,89 @@
+#canchaBasketBall{
+  height: 400px;
+  width: 700px;
+  background-color: #FF9800;
+  border: 5px solid white;
+  position:relative;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.circuloCentralIzq {
+	border: 5px solid white;
+	border-radius: 100%;
+	width: 75px;
+	height: 75px;
+	position: absolute;
+  	left:125px;
+  	top: 40%;
+}
+.mediaLunaUno{
+   width: 250px;
+   height: 300px;
+   border: 5px solid white;
+   -moz-border-radius: 0 100px 100px 0;
+   -webkit-border-radius: 0 100px 100px 0;
+   border-radius: 0 150px 150px 0;
+   position: absolute;
+     left:-5px;
+     top: 50px;
+}
+.areaIzq{
+   width: 80px;
+   height: 10px;
+   border-right: 50px solid transparent;
+   border-left: 50px solid transparent;
+   border-top: 205px solid #FDD835 ;
+   position:absolute; top:95px;
+   position:absolute; left:-20px;
+   -webkit-transform: rotate(270deg) skew(0deg);
+  }
+
+.lineaCentral{
+    height: 100%;
+    border-left: 5px solid white;;
+    right: 50%;
+    position: absolute;
+    top: 0%
+}
+
+.circuloCentral {
+	border: 5px solid white;
+	border-radius: 100%;
+	width: 75px;
+	height: 75px;
+	position: absolute;
+  	left:306px;
+  	top: 40%;
+}
+
+  .mediaLunaDos{
+     width: 250px;
+     height: 300px;
+     border: 5px solid white;
+     -moz-border-radius: 0 100px 100px 0;
+     -webkit-border-radius: 0 100px 100px 0;
+     border-radius: 150px 0px 0px 150px;
+     position: absolute;
+       left: 445px;
+       top: 50px;
+  }
+  .circuloCentralDer {
+  	border: 5px solid white;
+  	border-radius: 100%;
+  	width: 75px;
+  	height: 75px;
+  	position: absolute;
+    	right:125px;
+    	top: 40%;
+  }
+  .areaDer{
+     width: 80px;
+     height: 10px;
+     border-right: 50px solid transparent;
+     border-left: 50px solid transparent;
+     border-top: 205px solid #FDD835 ;
+     position:absolute; top:95px;
+     position:absolute; right:-20px;
+     -webkit-transform: rotate(90deg) skew(0deg);
+    }
